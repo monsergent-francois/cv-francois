@@ -1,6 +1,19 @@
 h2 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.descript{
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -18,7 +31,7 @@ h2 {
 .about,
 .experiences,
 .skills {
-  border: 1px solid black;
+  border: 1px solid grey;
   min-height: 100px;
   width: 48%;
 }
@@ -27,10 +40,25 @@ h2 {
 .experiences,
 .photo {
   float: left;
+
 }
 
 .contact,
 .about,
 .skills {
   float: right;
+
+}
+
+h1{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:inpact;
+  text-align: center;
+  font-size: 26px;
+}
+
+body{
+background-color: black;
+color: white;
 }

@@ -11,11 +11,13 @@ h2 {
   font-weight: bold;
   font-style: italic;
   text-align: center;
+  margin-left: 60px;
 }
 h3{
   text-align: center;
   font-size: 15px;
   text-decoration: underline;
+  color: grey;
 }
 
 .wrapper {
@@ -36,6 +38,7 @@ h3{
   border: 1px solid grey;
   min-height: 100px;
   width: 48%;
+
 }
 
 .logo,
@@ -55,8 +58,8 @@ h1{
   text-transform: uppercase;
   font-family:inpact;
   text-align: center;
-  font-size: 26px;
-  text-decoration: underline;
+  font-size: 30px;
+
 }
 
 body{
@@ -66,4 +69,9 @@ color: white;
 
 .ul-contact{
   list-style: none;
+}
+
+.image{
+  margin-left: 130px;
+  margin-bottom: 20px;
 }

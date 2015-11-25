@@ -7,6 +7,10 @@ h2 {
 
 }
 
+@font-face {
+  font-family: "ladybug";
+  src: url("../ladybug/ladybug Love Demo.ttf");
+}
 
 .descript{
   font-size: 13px;

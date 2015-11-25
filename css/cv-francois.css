@@ -4,6 +4,7 @@ h2 {
   text-align: center;
   text-decoration: underline;
   font-family: serif;
+
 }
 
 
@@ -36,7 +37,7 @@ h3{
 .about,
 .experiences,
 .skills {
-  border: 1px solid #1E3C38;
+  border: 1px solid #black;
   min-height: 180px;
   width: 48%;
 
@@ -51,7 +52,8 @@ h3{
 .contact,
 .about,
 .skills {
-  float: right;
+  float: left;
+
 }
 
 h1{
@@ -76,4 +78,39 @@ color: white;
 .image{
   margin-left: 130px;
   margin-bottom: 20px;
+}
+
+.fa{
+  margin-left:2px;
+}
+
+sup{
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.logo {
+  border-bottom:3px dashed grey;
+  border-right:3px dashed grey;
+}
+
+.contact {
+  border-bottom:3px dashed grey;
+}
+
+.photo{
+  border-right:3px dashed grey;
+  border-bottom:3px dashed grey;
+}
+
+.skills {
+  border-top:3px dashed grey;
+  border-left:3px dashed grey;
+  margin-top: -3px
+
+}
+.date{
+display: inline-block;
+width: 100px;
 }

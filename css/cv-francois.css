@@ -78,7 +78,7 @@ color: white;
 .image{
   margin-left: 130px;
   margin-bottom: 20px;
-  box-shadow: 4px 2px 0px #aaa; 
+  box-shadow: 4px 2px 3px grey;
 }
 
 .fa{

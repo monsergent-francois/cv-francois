@@ -1,0 +1,149 @@
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: serif;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  color: grey;
+}
+
+@font-face {
+  font-family: "ladybug";
+  src: url("../ladybug/ladybug Love Demo.ttf");
+}
+
+.descript{
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.clearfix {
+  clear:both;
+}
+.logo,
+.contact,
+.photo,
+.about,
+.experiences,
+.skills {
+  border: 1px solid #black;
+  min-height: 180px;
+  width: 48%;
+
+}
+
+.logo,
+.experiences,
+.photo {
+  float: left;
+}
+
+.contact,
+.about,
+.skills {
+  float: left;
+
+}
+
+h1{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.ul-contact{
+  list-style: none;
+}
+
+.image{
+  margin-left: 130px;
+  margin-bottom: 20px;
+  box-shadow: 4px 2px 3px grey;
+}
+
+.fa{
+  margin-left:2px;
+}
+
+sup{
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.logo {
+  border-bottom:3px dashed grey;
+  border-right:3px dashed grey;
+}
+
+.contact {
+  border-bottom:3px dashed grey;
+}
+
+.photo{
+  border-right:3px dashed grey;
+  border-bottom:3px dashed grey;
+}
+
+.skills {
+  border-top:3px dashed grey;
+  border-left:3px dashed grey;
+  margin-top: -3px
+
+}
+.date{
+  display: inline-block;
+  width: 100px;
+
+}
+
+.industriel{
+  margin-left: 105px;
+}
+
+.checkbox{
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 992px -1 ) {
+  .wrapper {
+    width: 100%;
+  }
+  .descript {
+    font-size: 2em;
+  }
+  .logo,
+  .contact,
+  .photo,
+  .about,
+  .experiences,
+  .skills {
+
+    width: 100%;
+  }
+}
